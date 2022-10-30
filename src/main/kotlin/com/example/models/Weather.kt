@@ -7,7 +7,7 @@ import kotlinx.serialization.Serializable
 data class Weather(
     val temperature: Double,
     @SerialName("windspeed") val  windSpeed: Double,
-    @SerialName("winddirection") val  windDirection: Int,
+    @SerialName("winddirection") val  windDirection: Double,
     @SerialName("weathercode") val weatherCode: Int,
     val time: String
 )
